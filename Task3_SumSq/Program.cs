@@ -9,4 +9,5 @@ while(count <= n)
 {
   SumSq = SumSq + count * count;
   count++;
-}Console.WriteLine(SumSq);
+}
+Console.WriteLine(SumSq);

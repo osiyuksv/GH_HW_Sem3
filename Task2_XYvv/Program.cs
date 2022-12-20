@@ -6,10 +6,13 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 if(n == 1) 
 Console.WriteLine("Возможный диапазон кординат точек: (x>0;y>0)");
-if(n == 2) 
+else if(n == 2) 
 Console.WriteLine("Возможный диапазон кординат точек: (x<0;y>0)");
-if(n == 3) 
+else if(n == 3) 
 Console.WriteLine("Возможный диапазон кординат точек: (x<0;y<0)");
-if(n == 4) 
+else if(n == 4) 
 Console.WriteLine("Возможный диапазон кординат точек: (x>0;y<0)");
-
+else
+{
+  Console.WriteLine("Некорректный номер плоскости");
+}

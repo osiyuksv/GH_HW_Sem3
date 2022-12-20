@@ -8,6 +8,7 @@ int SumSq = 0;
 while(count <= n)
 {
   SumSq = SumSq + count * count;
+  Console.WriteLine(count * count);
   count++;
 }
-Console.WriteLine(SumSq);
+Console.WriteLine("Сумма квадратов равна " + SumSq);
